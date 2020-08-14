@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="title">
+                <h3>Bookmarker</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="bookmark my-4">
+        <div class="container">
+            <div class="box mb-3">
+                <div class="title2 py-2">
+                    <h2>Bookmark your favorite sites</h2>
+                </div>
+                <div class="py-2">
+                    <div class="form-group">
+                        <label for="">Site Name</label>
+                        <input class="form-control" type="text" id="inputName" placeholder="Bookmark Name">
+                        <div id="warnName" class="warn warn-name">
+                            Name is Required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Site URL</label>
+                        <input class="form-control" type="text" id="inputURL" placeholder="Website URL">
+                        <div id="warnUrl" class="warn warn-url">
+                            test
+                        </div>
+                    </div>
+                    <button id="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="title2 text-center mb-4">
+                    <h3>Your Bookmark</h3>
+                </div>
+
+                <div id="books" class="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="box">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
